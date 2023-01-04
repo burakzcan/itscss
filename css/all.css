@@ -1,0 +1,27 @@
+/* Colors */
+/* Fonts Related */
+/* Unit Transform px -> rem */
+/* Usage */
+/* Use anywhere instead of px unit */
+.foo {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+/* Font Weight Function */
+/* Usage */
+.foo {
+  font-weight: 700;
+}
+
+/* Color Palette Function */
+/* Usage */
+.foo {
+  color: #1B53C5;
+  background: #12B0B0;
+  border: 0.0625rem solid #E34935;
+}
+
+h1 {
+  font-weight: 700;
+}

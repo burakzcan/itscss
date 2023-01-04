@@ -1,0 +1,28 @@
+/* Color Palette Function */
+
+$colors: (
+    primary         : #1B53C5,
+    secondary       : #86909C,
+    danger          : #E34935,
+    success         : #22A06B,
+    warning         : #F7BA1E,
+    info            : #12B0B0,
+    dark            : #1D2129,
+    light           : #F7F8FA,
+    white           : #FFFFFF,
+    black           : #000000
+);
+
+@function color($color) {
+    $color: map-get($colors, $color);
+
+    @return $color;
+}
+
+/* Usage */
+
+.foo {
+    color: color(primary);
+    background: color(info);
+    border: pxToRem(1) solid color(danger);
+}

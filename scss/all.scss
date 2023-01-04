@@ -1,0 +1,9 @@
+@import 'variables';
+
+@import 'pixel-to-rem';
+@import 'font-weight';
+@import 'color-palette';
+
+h1 {
+    @include font-weight(bold);
+}

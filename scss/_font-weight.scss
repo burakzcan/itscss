@@ -1,0 +1,25 @@
+/* Font Weight Function */
+
+$font-weights: (
+    thin           : 100,
+    ultra-light    : 200,
+    light          : 300,
+    regular        : 400,
+    medium         : 500,
+    semi-bold      : 600,
+    bold           : 700,
+    extra-bold     : 800,
+    heavy          : 900,
+);
+
+@mixin font-weight($font-weight) {
+    $font-weight: map-get($font-weights, $font-weight);
+
+    font-weight: $font-weight;
+}
+
+/* Usage */
+
+.foo {
+    @include font-weight(bold);
+}

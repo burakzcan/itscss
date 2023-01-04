@@ -1,0 +1,15 @@
+/* Unit Transform px -> rem */
+
+$base-html-font-size: 16;
+
+@function pxToRem($pxSize, $base: $base-html-font-size) {
+    @return calc($pxSize / $base) * 1rem;
+}
+
+/* Usage */
+/* Use anywhere instead of px unit */
+
+.foo {
+    width: pxToRem(50);
+    height: pxToRem(50);
+}
