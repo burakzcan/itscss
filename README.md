@@ -1,2 +1,3 @@
-# itscss
-A Lightweight CSS Framework
+# SCSS Tools
+
+Functions, Mixins etc.
