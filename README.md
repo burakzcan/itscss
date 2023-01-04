@@ -1,2 +1,2 @@
-# It's CSS
+# itscss
 A Lightweight CSS Framework
